@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classificação de Nadadores</title>
+</head>
+<body>
+    <h1>Classificação de Nadadores</h1>
+    <form id="nadador">
+        <label for="idade">Digite a idade do nadador:</label><br>
+        <input type="number" id="idade" name="idade" required><br><br>
+        <button type="submit">Classificar</button>
+    </form>
+
+    <div id="resultado" style="display: none;">
+        <h2>Resultado:</h2>
+        <p id="categoria"></p>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
